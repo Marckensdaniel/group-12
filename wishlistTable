@@ -1,0 +1,8 @@
+CREATE TABLE `wishlist` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_id` int(11) NOT NULL,
+  `created_date` timestamp NOT NULL DEFAULT current_timestamp(),
+  `product_id` bigint(20) NOT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK6p7qhvy1bfkri13u29x6pu8au` (`product_id`)
+) ENGINE=MyISAM AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4;
